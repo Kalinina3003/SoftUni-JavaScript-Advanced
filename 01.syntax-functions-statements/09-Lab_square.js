@@ -12,3 +12,17 @@ squareOfStars(1);
 squareOfStars();
 squareOfStars(5);
 squareOfStars(7);
+
+/*
+function squareOfStars(num = 5) {
+    for (let row = 1; row <= num; row++) {
+        let line = '';
+
+        for (let col = 1; col <= num; col++) {
+            line += '* ';
+        }
+
+        console.log(line.trim());
+    }
+}
+*/
