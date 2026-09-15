@@ -13,3 +13,16 @@ function greatestCommonDivisor(num1, num2) {
 }
 greatestCommonDivisor(15, 5);
 greatestCommonDivisor(2154, 458);
+
+/*   // the Euclidean algorithm;
+function greatestCommonDivisor(num1, num2) {
+    while (num2 !== 0) {
+        let remainder = num1 % num2;
+
+        num1 = num2;
+        num2 = remainder;
+    } 
+
+    console.log(num1);
+}
+*/
