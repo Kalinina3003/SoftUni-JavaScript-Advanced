@@ -12,7 +12,7 @@ Description: replace all occurrences of a given string inside an HTML element.
 - `onclick`
 
 ## My Solution
-See `solution.js`.
+See `EditElement.js`.
 
 ## Note
 The HTML file was provided by the course.
