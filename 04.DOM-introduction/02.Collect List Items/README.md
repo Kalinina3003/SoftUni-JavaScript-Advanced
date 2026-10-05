@@ -1,8 +1,8 @@
 # Task: Collect List Items
 
 ## 
-// Description: Get all list items from the HTML list.
-// Append their text to the textarea when the button is clicked.
+Description: Get all list items from the HTML list.
+Append their text to the textarea when the button is clicked.
 
 ## Consepts:
 - DOM
