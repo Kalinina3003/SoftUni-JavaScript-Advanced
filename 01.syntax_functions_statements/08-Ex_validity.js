@@ -1,0 +1,22 @@
+// Task: Valid Distance.
+// Description: Calculate the distances between two points 
+// and the origin, and check if they are integers.
+
+function validityChecker(x1, y1, x2, y2) {
+    let distance1 = Math.sqrt(x1 ** 2 + y1 ** 2);
+    let distance2 = Math.sqrt(x2 ** 2 + y2 ** 2);
+    let distance3 = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+
+    console.log(`{${x1}, ${y1}} to {0, 0} is ${Number.isInteger(distance1) ? 'valid' : 'invalid'}`);
+    console.log(`{${x2}, ${y2}} to {0, 0} is ${Number.isInteger(distance2) ? 'valid' : 'invalid'}`);
+    console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is ${Number.isInteger(distance3) ? 'valid' : 'invalid'}`);
+}
+validityChecker(3, 0, 0, 4);
+// {3, 0} to {0, 0} is valid;
+// {0, 4} to {0, 0} is valid;
+// {3, 0} to {0, 4} is valid;
+
+validityChecker(2, 1, 1, 1);
+// {2, 1} to {0, 0} is invalid;
+// {1, 1} to {0, 0} is invalid;
+// {2, 1} to {1, 1} is valid;
