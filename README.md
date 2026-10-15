@@ -4,6 +4,7 @@ My custom JavaScript solutions for the SoftUni JavaScript Advanced course exerci
 
 ## Core Concepts Covered
 * Syntax, functions & statements
+* Arrays & nested arrays
 
 
 
