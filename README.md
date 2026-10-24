@@ -7,6 +7,7 @@ My custom JavaScript solutions for the SoftUni JavaScript Advanced course exerci
 * Arrays & nested arrays
 * Objects & composition
 * DOM introduction
+* DOM events
 
 
 
