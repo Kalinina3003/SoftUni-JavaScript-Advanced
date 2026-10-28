@@ -8,6 +8,7 @@ My custom JavaScript solutions for the SoftUni JavaScript Advanced course exerci
 * Objects & composition
 * DOM introduction
 * DOM events
+* Advanced functions
 
 
 
