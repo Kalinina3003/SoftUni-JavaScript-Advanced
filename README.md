@@ -9,6 +9,7 @@ My custom JavaScript solutions for the SoftUni JavaScript Advanced course exerci
 * DOM introduction
 * DOM events
 * Advanced functions
+* Unit testing & error handling
 
 
 
